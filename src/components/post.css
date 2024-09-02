@@ -1,0 +1,25 @@
+/* post.css */
+
+article {
+    background-color: #f9f9f9; /* Light background for the post */
+    border: 1px solid #ddd; /* Subtle border to define the post area */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    padding: 1.5rem; /* Space around the content inside the post */
+    margin: 1rem 0; /* Space between posts */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  h2 {
+    font-size: 1.5rem; /* Font size for post titles */
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0.5rem; /* Space below the title */
+    color: #333; /* Darker color for the title for readability */
+  }
+  
+  p {
+    font-size: 1rem; /* Font size for post content */
+    line-height: 1.6; /* Line height for better readability */
+    color: #555; /* Slightly lighter color for content */
+    margin: 0; /* Remove default margin */
+  }
+  

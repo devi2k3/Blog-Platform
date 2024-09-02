@@ -1,0 +1,19 @@
+/* footer.css */
+
+footer {
+    background-color: #282c34; /* Dark background similar to the header for consistency */
+    color: white; /* White text color */
+    text-align: center; /* Center-align the text */
+    padding: 1rem; /* Space around content */
+    position: relative; /* Allow for positioning adjustments */
+    bottom: 0; /* Position at the bottom of the page */
+    width: 100%; /* Full width to match the page width */
+    border-top: 1px solid #444; /* Subtle border at the top */
+  }
+  
+  p {
+    margin: 0; /* Remove default margin */
+    font-size: 0.875rem;
+    color: aqua; /* Slightly smaller font size */
+  }
+  

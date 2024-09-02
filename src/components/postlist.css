@@ -1,0 +1,17 @@
+/* postList.css */
+
+div {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack posts vertically */
+    align-items: center; /* Center posts horizontally */
+    padding: 1rem; /* Space around the entire list */
+  }
+  
+  @media (min-width: 768px) {
+    div {
+      align-items: flex-start; /* Align posts to the start on larger screens */
+      max-width: 800px; /* Limit the width of the post list */
+      margin: 0 auto; /* Center the list horizontally */
+    }
+  }
+  

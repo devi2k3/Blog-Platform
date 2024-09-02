@@ -1,0 +1,48 @@
+/* postForm.css */
+
+form {
+    background-color: #fff; /* Light background for the form */
+    border: 1px solid #ddd; /* Subtle border around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    padding: 1.5rem; /* Space inside the form */
+    max-width: 600px; /* Max width to limit form size */
+    margin: 1rem auto; /* Center the form and add margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  input,
+  textarea {
+    width: 100%; /* Full width for input and textarea */
+    padding: 0.75rem; /* Space inside input and textarea */
+    margin-bottom: 1rem; /* Space below input and textarea */
+    border: 1px solid #ccc; /* Border for input and textarea */
+    border-radius: 4px; /* Rounded corners for input and textarea */
+    font-size: 1rem; /* Font size for readability */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 150px; /* Minimum height for textarea */
+  }
+  
+  button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color for the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    padding: 0.75rem 1.5rem; /* Space inside the button */
+    font-size: 1rem; /* Font size for readability */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color on hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker color for button on hover */
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Gray color for disabled button */
+    cursor: not-allowed; /* Not-allowed cursor for disabled button */
+  }
+  
